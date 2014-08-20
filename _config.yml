@@ -23,5 +23,5 @@ navigations:
     href: /links.html
   - title: Subscribe
     class: fa fa-rss
-    href: /atom.xml
+    href: /feed.xml
 
