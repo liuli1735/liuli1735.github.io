@@ -10,13 +10,9 @@ tags:
 
 把自己做的神经网络的推导过程的笔记记下来，推导过程是按照Andrew Ng的课程的数学符号来写的。
 
-![Back Propagation](/media/files/2014/bg1.jpg)
+![Back Propagation](/media/files/2014/Ufldl1.png)
 
-![Back Propagation](/media/files/2014/bg2.jpg)
-
-![Back Propagation](/media/files/2014/bg3.jpg)
-
-![Back Propagation](/media/files/2014/bg4.jpg)
+![Back Propagation](/media/files/2014/Ufldl2.png)
 
 Matlab代码地址：[https://github.com/liuli1735/machine-learning-coursera/tree/master/problem_sets/ex3_solution](https://github.com/liuli1735/machine-learning-coursera/tree/master/problem_sets/ex3_solution)
 
