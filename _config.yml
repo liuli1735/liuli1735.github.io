@@ -1,7 +1,7 @@
 markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title.html
-name: "Captain L"
+name: "Blog for L"
 markdown: rdiscount
 
 author: "Jason"
@@ -18,9 +18,6 @@ navigations:
   - title: About
     class: fa fa-user
     href: /about.html
-  - title: Blogroll
-    class: fa fa-link
-    href: /links.html
   - title: Subscribe
     class: fa fa-rss
     href: /feed.xml
