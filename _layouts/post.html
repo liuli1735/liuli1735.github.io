@@ -17,6 +17,11 @@ layout: default
     {% endfor %}
   </span>
   
+  <!-- LikeBtn.com BEGIN https://likebtn.com/en/ -->
+  <span class="likebtn-wrapper" data-theme="transparent" data-white_label="true" data-identifier="item_1" data-show_like_label="false" data-dislike_enabled="false" data-icon_dislike_show="false"></span>
+  <script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
+  <!-- LikeBtn.com END -->
+  
   {% endif %}
   </section>
   <section class="post">
@@ -31,10 +36,10 @@ layout: default
     <i class="fa fa-circle"></i>
     {% endif %}
     </span>
-    <!-- BEGIN comment icon
+    <!-- BEGIN comment icon -->
     <span><a href="javascript:leave_comment();" id="leave_comment_link"><i class="fa fa-comment-o"></i></a></span>
     <span><a href="javascript:collapse_comment();" id="collapse_comment_link" style="display:none;"><i class="fa fa-chevron-up"></i></a></span>
-      END comment icon -->
+    <!-- END comment icon -->
 
     <span>
     {% if page.next %}
