@@ -1,12 +1,10 @@
 /*------------------------------------
  * sext-vi
  *
- * @author linghua.zhang@me.com
- * @link http://lhzhang.com/
+ * @author liuli1735@gmail.com
+ * @link http://liuli.me/
  * @update 2015-07-24
  *
- * |/ | (~ (~
- * |\.|._)._)
  * --------------------------------- */
 
 @import url(/media/fonts/telex-regular.css);
@@ -84,7 +82,7 @@ ul.listing {
     list-style-type:none;
     padding: 0;
     &.listing-item { a { padding: .2em 0 .2em 2em; } time { color: #999; } &:hover { background-color: #f9f9f9; } }
-    &.listing-seperator { font-family: #{$label-font}; &:before { content: "⭠ "; color: #ccc; } }
+    &.listing-seperator { font-family: #{$label-font}; &:before { content: "⭠ "; color: #ccc; } font-size:20pm;}
   }
 }
 
