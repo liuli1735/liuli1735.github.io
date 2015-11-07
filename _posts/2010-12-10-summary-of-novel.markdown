@@ -1,7 +1,6 @@
 ---
 title: '风姿物语——也算是为这么多年看过的小说总结一下'
 layout: post
-guid: urn:uuid:22a07a54-fe0a-4caa-bc60-75bcb06769aa
 tags:
   - novel
 ---
