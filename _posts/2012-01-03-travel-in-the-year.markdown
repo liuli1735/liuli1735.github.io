@@ -1,6 +1,7 @@
 ---
 title: '游山归来'
 layout: post
+guid: urn:uuid:22a07a54-fe0a-4caa-bc60-75bcb06769aa
 tags:
   - travel
 ---

@@ -1,8 +1,10 @@
 ---
 title: 'A good start ?'
+guid: urn:uuid:22a07a54-fe0a-4caa-bc60-75bcb06769aa
 layout: post
 tags:
   - start
+  - github
 ---
 这是个好的开始？说实话我自己也不清楚，清楚的是自己一个想搭个博客，写点东西而已。
 
