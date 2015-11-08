@@ -1,10 +1,13 @@
 @charset "UTF-8";
 /*------------------------------------
+ * sext-vi
  *
- * @author liuli1735@gmail.com
- * @link http://liuli.me/
+ * @author linghua.zhang@me.com
+ * @link http://lhzhang.com/
  * @update 2015-07-24
  *
+ * |/ | (~ (~
+ * |\.|._)._)
  * --------------------------------- */
 @import url(/media/fonts/telex-regular.css);
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
@@ -14,11 +17,9 @@
   padding: 0; }
 
 body {
-  font-size: 16px;
+  font-size: 14px;
   font-family: telexregular, Hiragino Sans GB, Microsoft YaHei, sans-serif;
-  color: #404040;
-  line-height: 1.5;
-  overflow-x: hidden;
+  color: #555;
   background-color: #f9f9f9;
   -webkit-font-smoothing: antialiased; }
 
@@ -44,7 +45,7 @@ hr {
 a, header #header h1 a, article .title a, article .meta .tags a, article .divider a {
   text-decoration: none;
   color: #bb2222; }
-a:hover, header #header h1 a:hover, article .title a:hover, article .meta .tags a:hover, article .divider a:hover {
+  a:hover, header #header h1 a:hover, article .title a:hover, article .meta .tags a:hover, article .divider a:hover {
     color: #dd1144; }
 
 blockquote, pre code {
@@ -107,44 +108,6 @@ header {
     header nav a, header nav #header h1 a, header #header h1 nav a, header nav article .title a, article .title header nav a, header nav article .meta .tags a, article .meta .tags header nav a, header nav article .divider a, article .divider header nav a {
       font-family: telexregular, Hiragino Sans GB, Microsoft YaHei, sans-serif;
       color: #ccc; }
-
-.sidebar-container {
-  color: #bfbfbf;
-  font-size: 14px;
-}
-.sidebar-container h5 {
-  color: #808080;
-  padding-bottom: 1em;
-}
-.sidebar-container h5 a {
-  color: #808080 !important;
-  text-decoration: none;
-}
-.sidebar-container a {
-  color: #bfbfbf !important;
-}
-.sidebar-container a:hover,
-.sidebar-container a:active {
-  color: #0085a1 !important;
-}
-.sidebar-container .tags a {
-  border-color: #bfbfbf;
-}
-.sidebar-container .tags a:hover,
-.sidebar-container .tags a:active {
-  border-color: #0085a1;
-}
-.sidebar-container .short-about img {
-  width: 80%;
-  display: block;
-  border-radius: 5px;
-}
-.sidebar-container .short-about p {
-  margin: 20px 0;
-}
-.sidebar-container .short-about .list-inline > li {
-  padding-left: 0px;
-}
 
 #content {
   margin: 0 auto;
