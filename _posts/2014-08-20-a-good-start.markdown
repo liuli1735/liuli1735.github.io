@@ -1,7 +1,6 @@
 ---
 title: 'A good start ?'
 layout: post
-guid: urn:uuid:22a07a54-fe0a-4caa-bc60-75bcb06769aa
 tags:
   - start
 ---
