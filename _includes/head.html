@@ -70,8 +70,9 @@
         })
     </script>
 
+    <!-- google analysis -->
     {% if site.ga_track_id %}
-    <script> /*** google analysis ***/
+    <script>
         // dynamic User
         var _gaId = '{{ site.ga_track_id }}';
         var _gaDomain = '{{ site.ga_domain }}';
@@ -88,7 +89,7 @@
 
     <!-- Baidu Tongji -->
     {% if site.ba_track_id %}
-    <script> /*** baidu analysis ***/
+    <script>
         // dynamic User
         var _baId = '{{ site.ba_track_id }}';
 
