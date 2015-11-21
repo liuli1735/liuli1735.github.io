@@ -1,11 +1,14 @@
 ---
-title: 'A good start ?'
-guid: urn:uuid:22a07a54-fe0a-4caa-bc60-75bcb06769aa
-layout: post
+layout:     post
+title:      "A good start ?"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2014-08-20 20:00:00
+author:     "liuli"
+header-img: "img/post-bg-2015.jpg"
 tags:
-  - start
-  - github
+    - github page
 ---
+
 这是个好的开始？说实话我自己也不清楚，清楚的是自己一个想搭个博客，写点东西而已。
 
 有一两年没写过什么东西了，记忆不好，怕某一天又觉得自己过得浑浑噩噩，留下点文字也好。
