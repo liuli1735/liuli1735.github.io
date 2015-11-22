@@ -36,7 +36,7 @@ layout: default
                 {% if site.featured-tags %}
                 <section>
                     <hr class="hidden-sm hidden-xs">
-                    <h5><a href="{{/tags.html | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
+                    <h5><a href="{{/tags/ | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
                     <div class="tags">
                         {% for tag in site.tags %}
                             {% if tag[1].size > {{site.featured-condition-size}} %}
@@ -51,7 +51,7 @@ layout: default
 
                 <!-- Short About -->
                 <section class="visible-md visible-lg">
-                    <hr><h5><a href="{{/about.html | prepend: site.baseurl }}">ABOUT ME</a></h5>
+                    <hr><h5><a href="{{/about/ | prepend: site.baseurl }}">ABOUT ME</a></h5>
                     <div class="short-about">
                         {% if site.sidebar-avatar %}
                             <img src="{{site.sidebar-avatar}}" />
@@ -70,8 +70,7 @@ layout: default
                                     </span>
                                 </a>
                             </li>
-                            {% endif %}                            
-                            {% if site.douban_username %}
+                            {% endif %}                            {% if site.douban_username %}
                             <li>
                                 <a target="_blank" href="http://www.douban.com/people/{{ site.douban_username }}">
                                     <span class="fa-stack fa-lg">
