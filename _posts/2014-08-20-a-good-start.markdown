@@ -6,7 +6,7 @@ date:       2014-08-20 20:00:00
 author:     "liuli"
 header-img: "img/post-bg-2015.jpg"
 tags:
-    - github page
+    - website
 ---
 
 这是个好的开始？说实话我自己也不清楚，清楚的是自己一个想搭个博客，写点东西而已。
