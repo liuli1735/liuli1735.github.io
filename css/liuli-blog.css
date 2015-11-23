@@ -84,17 +84,6 @@ a img:focus {
 article {
   overflow-x: hidden;
 }
-/* for Archive.html */
-ul.listing {
-  margin-top: 1em; }
-ul.listing li {
-  list-style-type: none;
-  padding: 0; }
-ul.listing li.listing-item a, ul.listing li.listing-item header #header h1 a, header #header h1 ul.listing li.listing-item a {
-  padding: .2em 0 .2em 2em; }
-ul.listing li.listing-seperator:before {
-  content: "⭠ ";
-  color: #ccc; }
 
 blockquote {
   color: #808080;
@@ -786,6 +775,12 @@ body {
     line-height: 2 !important;
   }
 }
+.listing .listing-seperator{
+  font-weight: 200;
+  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  line-height: 1.7; 
+}
+
 .one-tag-list .tag-text {
   font-weight: 200;
   font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
