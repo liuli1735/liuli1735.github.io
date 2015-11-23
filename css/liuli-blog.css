@@ -84,6 +84,17 @@ a img:focus {
 article {
   overflow-x: hidden;
 }
+/* for Archive.html */
+ul.listing {
+  margin-top: 1em;
+  li {
+    list-style-type:none;
+    padding: 0;
+    &.listing-item { a { padding: .2em 0 .2em 2em; } time { color: #999; } &:hover { background-color: #f9f9f9; } }
+    &.listing-seperator { font-family: #{$label-font}; &:before { content: "⭠ "; color: #ccc; } }
+  }
+}
+
 blockquote {
   color: #808080;
   font-style: italic;
