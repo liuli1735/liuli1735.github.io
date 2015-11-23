@@ -6,29 +6,21 @@ header-img: "img/archive-bg.jpg"
 ---
 
 <!-- Main Content -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+{% for post in site.posts %}
+<div class="one-tag-list">
+	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
+		{% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+		{% if year != y %}
+		{% assign year = y %}
+			<span class="tag-text">{{ y }}</span>
+		{% endif %}                  
+    </span>
 
-			{% for post in site.posts %}
-			<div class="one-tag-list">
-			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
-					{% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
-			  		{% if year != y %}
-			    	{% assign year = y %}
-			    		<span class="tag-text">{{ y }}</span>
-			  		{% endif %}                  
-                </span>
-
-				  <li class="post-preview">
-				  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-				  <a href="{{ post.url | prepend: site.baseurl }}"" title="{{ post.title }}"">{{ post.title }}</a>
-				  </li>
+	<li class="post-preview">
+	<time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+	<a href="{{ post.url | prepend: site.baseurl }}"" title="{{ post.title }}"">{{ post.title }}</a>
+	</li>
 				 
-				<hr>
-			</div>
-			{% endfor %}
-	
-		</div>
-	</div>
+	<hr>
 </div>
+{% endfor %}
