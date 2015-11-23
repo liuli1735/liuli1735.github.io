@@ -8,7 +8,7 @@ header-img: "img/archive-bg.jpg"
 <!-- Main Content -->
 {% for post in site.posts %}
 <div class="one-tag-list">
-	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
+	<span class="fa fa-archive listing-seperator">
 		{% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
 		{% if year != y %}
 		{% assign year = y %}
