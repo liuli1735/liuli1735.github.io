@@ -1,12 +1,9 @@
 ---
-layout:     post
-title:      "2010年的那些事"
-subtitle:   ""
-date:       2011-01-26 20:00:00
-author:     "liuli"
-header-img: "img/post-bg-05.jpg"
+title: '2010年的那些事'
+layout: post
+guid: urn:uuid:22a07a54-fe0a-4caa-bc60-75bcb06769aa
 tags:
-    - 生活
+  - diary
 ---
 
 这一年过的自己都有点迷糊，但是终究还有几天就是农历新年了，上半年那些事淡忘的也差不多。记忆力不好一直困扰我很久，但是我还是没有把东西记录下来的习惯。不过再仔细回想上半年的事情已经模糊，突然觉得有些事记下来是给若干年后的自己看还是很有必要的。
