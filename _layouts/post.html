@@ -26,15 +26,40 @@ layout: default
   </section>
   <section class="post">
   {{ content }}
+
+  {% if site.duoshuo_share && site.duoshuo_username %}
+  <!-- 多说 Share start -->
+  </style>
+  <div class="ds-share"
+      style="text-align: right"
+      data-thread-key="{{page.id}}"
+      data-title="{{page.title}}"
+      data-url="{{site.url}}{{site.baseurl}}{{page.url}}"
+      data-images="{{ site.url }}{{site.baseurl}}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}"
+      data-content="{{ content | strip_html | truncate:80 }} | {{ site.SEOTitle }} " >
+      <div class="ds-share-inline">
+        <ul  class="ds-share-icons-16">
+          <li data-toggle="ds-share-icons-more"><a class="ds-more" href="#">分享到：</a></li>
+          <li><a class="ds-wechat flat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+          <li><a class="ds-weibo flat" href="javascript:void(0);" data-service="weibo">微博</a></li>
+          <li><a class="ds-douban flat" href="javascript:void(0);" data-service="douban">豆瓣</a></li>
+        </ul>
+        <div class="ds-share-icons-more">
+        </div>
+      </div>
+  <hr>
+  </div>
+  <!-- 多说 Share end-->
+  {% endif %}
+
+
   </section>
-  {% if page.guid %}
   <div class="divider">
     <span>
     {% if page.previous %}
     <a href="{{ page.previous.url }}"><i class="fa fa-chevron-left">{{ page.previous.title }}</i></a>
     {% else %}
     <i class="fa fa-circle"></i>
-    {% endif %}
     </span>
     <!-- BEGIN comment icon
     <span><a href="javascript:leave_comment();" id="leave_comment_link"><i class="fa fa-comment-o"></i></a></span>
@@ -50,21 +75,34 @@ layout: default
     </span>
   </div>
 
+  {% if site.duoshuo_username %}
+  <!-- 多说评论框 start -->
   <section class="comment">
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'liuli1735'; // required: replace example with your forum shortname
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    
+      <div class="ds-thread"
+          data-thread-key="{{page.id}}"
+          data-title="{{page.title}}"
+          data-url="{{site.url}}{{site.baseurl}}{{page.url}}" >
+      </div>
   </section>
+  <!-- 多说评论框 end -->
+  {% endif %}
+
+  {% if site.disqus_username %}
+  <section class="comment">
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+          /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+          var disqus_shortname = "{{site.disqus_username}}"; // required: replace example with your forum shortname
+
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </section>
+  {% endif %}
   {% endif %}
 </article>

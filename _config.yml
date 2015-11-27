@@ -1,8 +1,16 @@
+SEOTitle: 刘笠的博客 | Blog of L
+email: liuli1735@gmail.com
+description: "Major in Finance, Quant, Data Science"
+keyword: "刘笠, liuli, ll1735, liuli1735"
+baseurl: ""
 markdown: rdiscount
 highlighter: pygments
-permalink: /:year/:month/:day/:title.html
+permalink: pretty
 name: Blog for L
-markdown: rdiscount
+markdown: kramdown
+
+
+
 
 author: "Jason"
 atom-baseurl: "http://liuli1735.github.io"
@@ -10,14 +18,36 @@ disqus: "liuli1735"
 
 navigations:
   - title: Archive
-    class: fa fa-list-ul
+    class: fa fa-list-ul fa-lg
     href: /archive.html
   - title: Tags
-    class: fa fa-tags
+    class: fa fa-tags fa-lg
     href: /tags.html
   - title: About
-    class: fa fa-user
+    class: fa fa-user fa-lg
     href: /about.html
   - title: Subscribe
-    class: fa fa-rss
+    class: fa fa-rss fa-lg
     href: /feed.xml
+
+# Disqus settings
+#disqus_username: liuli1735
+# Duoshuo settings
+duoshuo_username: liuli1735
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                    # set to false if you want to use Comment without Sharing
+
+# SNS settings
+weibo_username:  ll1735
+douban_username:  ll1735
+zhihu_username:   ll1735
+#facebook_username:  ll1735
+#twitter_username:  ll1735
+github_username:  liuli1735
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 4cb0c794650868465b5b888c237c3411
+# Google Analytics
+ga_track_id: 'UA-53994143-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto
