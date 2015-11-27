@@ -1,3 +1,14 @@
+/*------------------------------------
+ * sext-vi
+ *
+ * @author linghua.zhang@me.com
+ * @link http://lhzhang.com/
+ * @update 2015-07-24
+ *
+ * |/ | (~ (~
+ * |\.|._)._)
+ * --------------------------------- */
+
 @import url(/media/fonts/telex-regular.css);
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
 @import url(//code.cdn.mozilla.net/fonts/fira.css);
@@ -137,11 +148,6 @@ footer {
   margin: 1em auto;
   a { color: #cccccc; &:hover { color: #999999; }; }
 
-}
-
-footer .list-inline {
-  margin: 0;
-  padding: 0;
 }
 
 #tag_cloud { margin-bottom: 1em; }
