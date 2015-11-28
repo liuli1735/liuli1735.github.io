@@ -15,13 +15,13 @@ atom-baseurl: "http://liuli1735.github.io"
 navigations:
   - title: Archive
     class: fa fa-list-ul fa-lg
-    href: /archive.html
+    href: /archive
   - title: Tags
     class: fa fa-tags fa-lg
-    href: /tags.html
+    href: /tags
   - title: About
     class: fa fa-user fa-lg
-    href: /about.html
+    href: /about
   - title: Subscribe
     class: fa fa-rss fa-lg
     href: /feed.xml
