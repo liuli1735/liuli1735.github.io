@@ -9,12 +9,8 @@ permalink: pretty
 name: Blog for L
 markdown: kramdown
 
-
-
-
 author: "Jason"
 atom-baseurl: "http://liuli1735.github.io"
-disqus: "liuli1735"
 
 navigations:
   - title: Archive

@@ -61,6 +61,11 @@ header {
   }
 }
 
+.#{$fa-css-prefix}-fw {
+  width: (18em / 14);
+  text-align: center;
+}
+
 #content {
   @include page;
   line-height: 2em;
@@ -132,10 +137,18 @@ footer {
   display: block;
   color: #909090;
   font-family: #{$label-font};
-  font-size: .9em;
-  text-align: center;
+  padding: 50px 0 65px;
+  .list-inline {
+    margin: 0;
+    padding: 0;
+  }
+  .copyright {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0;
+  }
   margin: 1em auto;
-  a { color: #cccccc; &:hover { color: #999999; }; }
+  // a { color: #cccccc; &:hover { color: #999999; }; }
 
 }
 
@@ -143,6 +156,11 @@ footer .list-inline {
   margin: 0;
   padding: 0;
 }
+
+footer {
+
+}
+
 
 #tag_cloud { margin-bottom: 1em; }
 
