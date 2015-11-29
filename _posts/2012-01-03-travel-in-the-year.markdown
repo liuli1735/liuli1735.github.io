@@ -4,7 +4,7 @@ title:      "游山归来"
 subtitle:   " "
 date:       2012-01-03 12:00:00
 author:     "liuli"
-header-img: "img/post-bg-05.jpg"
+header-img: "static/img/post-bg-05.jpg"
 tags:
     - 生活
 ---

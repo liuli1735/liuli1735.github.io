@@ -4,7 +4,7 @@ title:      "A good start ?"
 subtitle:   "Hello World, Hello Blog"
 date:       2014-08-20 20:00:00
 author:     "liuli"
-header-img: "img/post-bg-05.jpg"
+header-img: "static/img/post-bg-05.jpg"
 tags:
     - website
 ---

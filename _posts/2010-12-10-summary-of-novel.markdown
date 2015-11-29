@@ -3,7 +3,7 @@ layout:     post
 title:      "风姿物语——也算是为这么多年看过的小说总结一下"
 date:       2010-12-10 21:00:00
 author:     "liuli"
-header-img: "img/post-bg-05.jpg"
+header-img: "static/img/post-bg-05.jpg"
 tags:
     - 生活
 ---
