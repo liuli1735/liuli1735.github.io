@@ -1,3 +1,4 @@
-This is my personal blog. 
-I fork it from https://github.com/waynezhang/blog and make some changes.
-Email: liuli1735@gmail.com
+## Thanks
+
+This theme is forked from [IronSummitMedia/startbootstrap-clean-blog-jekyll](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll)  
+Thanks Jekyll and Github Pages!
