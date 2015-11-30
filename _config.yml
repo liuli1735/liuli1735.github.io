@@ -1,7 +1,7 @@
 # Site settings
 title: Blog of L
 SEOTitle: 刘笠的博客 | Blog of L
-header-img: img/home-bg.jpg
+header-img: static/img/home-bg.jpg
 email: liuli1735@gmail.com
 description: "Major in Finance, Quant, Data Science"
 keyword: "刘笠, liuli, ll1735, liuli1735"
@@ -45,7 +45,7 @@ ga_domain: auto
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Coder | Major in finance | Love Dota2 and want to be a Quant."
-sidebar-avatar: /static/img/avatar.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: static/img/avatar.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
