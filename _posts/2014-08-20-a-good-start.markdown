@@ -6,7 +6,7 @@ date:       2014-08-20 20:00:00
 author:     "liuli"
 header-img: "static/img/post-bg-05.jpg"
 tags:
-    - web site
+    - website
 ---
 
 这是个好的开始？说实话我自己也不清楚，清楚的是自己一个想搭个博客，写点东西而已。
