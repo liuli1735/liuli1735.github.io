@@ -37,10 +37,10 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 4cb0c794650868465b5b888c237c3411
+baidu_track_id: 98dfb384afdf7dd8e5c34f8037c402e2
 # Google Analytics
-ga_track_id: 'UA-53994143-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto
+google_track_id: 'UA-53994143-1'            # Format: UA-xxxxxx-xx
+google_domain: auto
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
