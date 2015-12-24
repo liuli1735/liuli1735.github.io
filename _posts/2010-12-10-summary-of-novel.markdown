@@ -2,7 +2,7 @@
 title: '风姿物语——也算是为这么多年看过的小说总结一下'
 layout: post
 tags:
-  - novel
+  - diary
 ---
 
 ![风姿物语](/media/images/2010/风姿物语.jpg)
