@@ -63,7 +63,10 @@
       </div>
       <nav>
         {% for nav in site.navigations %}
+        <!-- no nav.title
         <span><a title="{{ nav.title }}" href="{{ nav.href }}"><i class="{{ nav.class }}">&nbsp; {{ nav.title }}</i></a></span>
+        -->
+        <span><a title="{{ nav.title }}" href="{{ nav.href }}"><i class="{{ nav.class }}"></i></a></span>
         {% endfor %}
       </nav>
     </header>
