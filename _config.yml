@@ -23,11 +23,11 @@ paginate: 5
 #github_username:  liuli1735
 
 # Disqus settings
-# disqus_username: liuli1735
+disqus_username: liuli1735
 # Duoshuo settings
-duoshuo_username: ll1735
+#duoshuo_username: ll1735
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                    # set to false if you want to use Comment without Sharing
+#duoshuo_share: true                    # set to false if you want to use Comment without Sharing
 
 # Analytics settings
 # Baidu Analytics
