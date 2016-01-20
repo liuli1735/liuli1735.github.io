@@ -15,10 +15,10 @@ layout: default
       <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     </span>
     {% if post.tags %}
-    <i class="fa fa-tags"></i>
+    &nbsp<i class="fa fa-tags"></i>
     <span class="tags">
       {% for tag in post.tags %}
-      <a href="/tag.html#{{ tag }}" title="{{ tag }}">#{{ tag }}</a>
+      <a href="/tag.html#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
       {% endfor %}
     </span>
     {% endif %}
