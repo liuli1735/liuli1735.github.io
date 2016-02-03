@@ -9,7 +9,7 @@ url: "http://liuli.me"
 markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
-highlighter: pygments
+highlighter: Rouge
 permalink: /:year/:month/:day/:title.html
 paginate: 5
 
