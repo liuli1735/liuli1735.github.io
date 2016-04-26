@@ -1,3 +1,3 @@
 This is my personal blog. 
-> I fork it from https://github.com/waynezhang/blog and make some changes.
+> I fork it from http://notes.iissnan.com and make some changes.
 
