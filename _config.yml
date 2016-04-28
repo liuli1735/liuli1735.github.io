@@ -23,7 +23,7 @@ public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
-code_dir:、
+code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
@@ -68,4 +68,6 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: github
+  repository: git@github.com:liuli1735/liuli1735.github.io.git
+  branch: master
