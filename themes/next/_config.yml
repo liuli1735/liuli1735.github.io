@@ -27,7 +27,7 @@ since: 2010
 menu:
   home: /
   archives: /archives
-  categories: /categories
+  #categories: /categories
   tags: /tags
   about: /about
   #commonweal: /404.html
@@ -43,7 +43,7 @@ menu_icons:
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
   about: user
-  categories: th
+  #categories: th
   tags: tags
   archives: archive
   commonweal: heartbeat
@@ -320,6 +320,9 @@ baidu_push: false
 reward_comment: 坚持分享，您的支持将鼓励我继续创作！
 wechatpay: /images/wechat-reward-image.jpg
 alipay: /images/alipay-reward-image.jpg
+
+widgets:
+- tagcloud
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
