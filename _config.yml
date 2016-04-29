@@ -68,6 +68,6 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: github
+  type: git
   repository: git@github.com:liuli1735/liuli1735.github.io.git
   branch: master
