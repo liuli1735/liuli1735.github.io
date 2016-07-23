@@ -81,10 +81,12 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+
 deploy:
   type: git
-  repository: git@github.com:liuli1735/liuli1735.github.io.git
-  branch: master
+  repo:
+      github: git@github.com:liuli1735/liuli1735.github.io.git,master
+      coding: git@git.coding.net:ll1735/ll1735.git,coding-pages
 
 # Local Search
 search:
