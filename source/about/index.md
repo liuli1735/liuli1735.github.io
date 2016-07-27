@@ -5,7 +5,7 @@ date: 2016-04-29 22:30:48
 
 a
 
-> Coder | Major in finance | Love Dota2 and want to be a Quant
+> Quant | Major in finance | Love Dota2
 
 who involved in 
 
