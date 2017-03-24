@@ -71,6 +71,8 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
+  hub:
+  content:
 
 #sitemap
 sitemap:
@@ -84,11 +86,21 @@ theme: next
 
 deploy:
   type: git
+  message: [message]
   repo:
       github: git@github.com:liuli1735/liuli1735.github.io.git,master
       coding: git@git.coding.net:ll1735/ll1735.git,coding-pages
+  extend_dirs:
+    - [extend directory]
+    - [another extend directory]
+  ignore_hidden:
+    public: false
+    [extend directory]: true
+    [another extend directory]: false
 
 # Local Search
 search:
   path: search.xml
   field: post
+  format: html
+  limit: 10000
