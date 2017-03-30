@@ -71,9 +71,15 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
+<<<<<<< HEAD
 #scheme: Muse
 #scheme: Mist
 scheme: Pisces
+=======
+scheme: Muse
+#scheme: Mist
+#scheme: Pisces
+>>>>>>> 598991ff8c966747476c14db4793c7ac0f4ce4d7
 
 
 # ---------------------------------------------------------------
