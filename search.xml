@@ -1,145 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-    
-    <entry>
-      <title><![CDATA[RSS源整理]]></title>
-      <url>/Rss-source/</url>
-      <content type="html"><![CDATA[<p>Google Reader关闭之前把自己的RSS源导入到了Feedly，之后读RSS也是断断续续的，尝试过鲜果、Feedly、Digg…，最终还是掏了30RMB在APP Store里面买了Reeder。在Reeder里面用Feedly登录，体验还是不错的。</p>
-<h3 id="RSS源整理"><a href="#RSS源整理" class="headerlink" title="RSS源整理"></a>RSS源整理</h3><ol>
-<li><h4 id="互联网"><a href="#互联网" class="headerlink" title="互联网"></a>互联网</h4><ul>
-<li>虎嗅网 <a href="http://www.huxiu.com/rss/0.xml" target="_blank" rel="noopener">http://www.huxiu.com/rss/0.xml</a></li>
-<li>互联网的那点事 <a href="http://www.alibuybuy.com/feed" target="_blank" rel="noopener">http://www.alibuybuy.com/feed</a></li>
-<li>36氪 <a href="http://www.36kr.com/feed/" target="_blank" rel="noopener">http://www.36kr.com/feed/</a></li>
-<li>Engadget RSS Feed <a href="http://www.engadget.com/rss.xml" target="_blank" rel="noopener">http://www.engadget.com/rss.xml</a></li>
-<li>爱范儿 <a href="http://www.ifanr.com/feed" target="_blank" rel="noopener">http://www.ifanr.com/feed</a></li>
-<li>极客公园 <a href="http://feeds.geekpark.net/" target="_blank" rel="noopener">http://feeds.geekpark.net/</a></li>
-<li>风雪之隅 <a href="http://www.laruence.com/feed" target="_blank" rel="noopener">http://www.laruence.com/feed</a></li>
-<li>周鸿祎的Blog <a href="http://zhouhongyi.blog.sohu.com/rss" target="_blank" rel="noopener">http://zhouhongyi.blog.sohu.com/rss</a></li>
-<li>TechWeb <a href="http://www.techweb.com.cn/rss/focus.xml" target="_blank" rel="noopener">http://www.techweb.com.cn/rss/focus.xml</a></li>
-<li>酷壳 <a href="http://coolshell.cn/feed" target="_blank" rel="noopener">http://coolshell.cn/feed</a><a id="more"></a></li>
-<li>Solidot <a href="http://feeds2.feedburner.com/solidot" target="_blank" rel="noopener">http://feeds2.feedburner.com/solidot</a></li>
-<li>豆瓣九点 科技 <a href="http://9.douban.com/rss/technology" target="_blank" rel="noopener">http://9.douban.com/rss/technology</a></li>
-<li>阮一峰的网络日志 <a href="http://www.ruanyifeng.com/blog/atom.xml" target="_blank" rel="noopener">http://www.ruanyifeng.com/blog/atom.xml</a></li>
-<li>cnBeta <a href="http://cnbeta.feedsportal.com/c/34306/f/624776/index.rss" target="_blank" rel="noopener">http://cnbeta.feedsportal.com/c/34306/f/624776/index.rss</a></li>
-<li>谷奥——探寻谷歌的奥秘 <a href="http://www.guao.hk/feed" target="_blank" rel="noopener">http://www.guao.hk/feed</a></li>
-<li>月光博客 <a href="http://feed.williamlong.info/" target="_blank" rel="noopener">http://feed.williamlong.info/</a></li>
-<li>雷锋网 <a href="http://www.leiphone.com/feed" target="_blank" rel="noopener">http://www.leiphone.com/feed</a></li>
-</ul>
-</li>
-<li><h4 id="经济"><a href="#经济" class="headerlink" title="经济"></a>经济</h4><ul>
-<li>FT中文网 - 今日焦点 <a href="http://www.ftchinese.com/rss/news" target="_blank" rel="noopener">http://www.ftchinese.com/rss/news</a></li>
-<li>FT中文网一周十大热门文章 <a href="http://www.ftchinese.com/rss/hotstoryby7day" target="_blank" rel="noopener">http://www.ftchinese.com/rss/hotstoryby7day</a></li>
-<li>华尔街见闻 <a href="http://wallstreetcn.com/rss.xml" target="_blank" rel="noopener">http://wallstreetcn.com/rss.xml</a></li>
-<li>华尔街日报 <a href="http://chinese.wsj.com/gb/rss01.xml" target="_blank" rel="noopener">http://chinese.wsj.com/gb/rss01.xml</a></li>
-<li>经济博客 <a href="http://blog.hexun.com/group/GetRssResouce.aspx?classId=66" target="_blank" rel="noopener">http://blog.hexun.com/group/GetRssResouce.aspx?classId=66</a></li>
-<li>路透: 时事要闻 <a href="http://cn.reuters.feedsportal.com/CNTopGenNews" target="_blank" rel="noopener">http://cn.reuters.feedsportal.com/CNTopGenNews</a></li>
-<li>今日话题 - 雪球 <a href="http://xueqiu.com/hots/topic/rss" target="_blank" rel="noopener">http://xueqiu.com/hots/topic/rss</a></li>
-<li>金融新闻_财新网 <a href="http://finance.caixin.com/finance_news.xml" target="_blank" rel="noopener">http://finance.caixin.com/finance_news.xml</a></li>
-<li>HBR.org <a href="http://feeds.harvardbusiness.org/harvardbusiness/" target="_blank" rel="noopener">http://feeds.harvardbusiness.org/harvardbusiness/</a></li>
-<li>FT中文网 <a href="http://www.ftchinese.com/rss/feed" target="_blank" rel="noopener">http://www.ftchinese.com/rss/feed</a></li>
-<li>漫步金融街 <a href="http://www.dogear.cn/feed/10801.xml" target="_blank" rel="noopener">http://www.dogear.cn/feed/10801.xml</a></li>
-<li>纽约时报中文网 国际纵览 <a href="http://cn.nytimes.com/rss.html" target="_blank" rel="noopener">http://cn.nytimes.com/rss.html</a></li>
-<li>Economic Issues(the economist) <a href="http://www.economist.com/topics/economics/index.xml" target="_blank" rel="noopener">http://www.economist.com/topics/economics/index.xml</a></li>
-<li>Chinese Economy(the economist) <a href="http://www.economist.com/topics/chinese-economy/index.xml" target="_blank" rel="noopener">http://www.economist.com/topics/chinese-economy/index.xml</a></li>
-<li>经济笔记 <a href="http://www.kaieconblog.net/feed/" target="_blank" rel="noopener">http://www.kaieconblog.net/feed/</a></li>
-<li>财经网 <a href="http://www.caijing.com.cn/rss/rss.xml" target="_blank" rel="noopener">http://www.caijing.com.cn/rss/rss.xml</a></li>
-<li>路透: 中国财经 <a href="http://cn.reuters.com/rssFeed/chinaNews" target="_blank" rel="noopener">http://cn.reuters.com/rssFeed/chinaNews</a></li>
-</ul>
-</li>
-<li><h4 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h4><ul>
-<li>It Talks-魏武挥的blog <a href="http://feed.feedsky.com/ittalks" target="_blank" rel="noopener">http://feed.feedsky.com/ittalks</a></li>
-<li>豆瓣九点 生活 <a href="http://9.douban.com/rss/life" target="_blank" rel="noopener">http://9.douban.com/rss/life</a></li>
-<li>译言精选-摘要 <a href="http://feed.feedsky.com/yeeyan-select" target="_blank" rel="noopener">http://feed.feedsky.com/yeeyan-select</a></li>
-<li>科学松鼠会 <a href="http://songshuhui.net/feed" target="_blank" rel="noopener">http://songshuhui.net/feed</a></li>
-<li>译言-商业/经济/营销 <a href="http://feed.feedsky.com/yeeyan-business" target="_blank" rel="noopener">http://feed.feedsky.com/yeeyan-business</a></li>
-<li>阅读时间 <a href="http://feed.feedsky.com/timetimetime" target="_blank" rel="noopener">http://feed.feedsky.com/timetimetime</a></li>
-<li>序言書室 <a href="http://www.hkreaders.com/?feed=rss2" target="_blank" rel="noopener">http://www.hkreaders.com/?feed=rss2</a></li>
-<li>费杰_苦力强狒狒 <a href="http://feed.feedsky.com/kuliqiang" target="_blank" rel="noopener">http://feed.feedsky.com/kuliqiang</a></li>
-<li>译言-教育与学习 <a href="http://feed.feedsky.com/yeeyan-learn" target="_blank" rel="noopener">http://feed.feedsky.com/yeeyan-learn</a></li>
-<li>知乎日报 <a href="http://feeds.feedburner.com/zhihu-daily" target="_blank" rel="noopener">http://feeds.feedburner.com/zhihu-daily</a></li>
-<li>一五一十部落头条 <a href="http://feed.feedsky.com/my1510" target="_blank" rel="noopener">http://feed.feedsky.com/my1510</a></li>
-<li>不许联想 <a href="http://feed.feedsky.com/bxlxwxf" target="_blank" rel="noopener">http://feed.feedsky.com/bxlxwxf</a></li>
-<li>左岸读书 <a href="http://feed.feedsky.com/clzzxf" target="_blank" rel="noopener">http://feed.feedsky.com/clzzxf</a></li>
-<li>政见 <a href="http://cnpolitics.org/feed/" target="_blank" rel="noopener">http://cnpolitics.org/feed/</a></li>
-<li>Quora <a href="http://www.quora.com/rss" target="_blank" rel="noopener">http://www.quora.com/rss</a></li>
-<li>Nhzy资讯 <a href="http://www.nhzy.org/?feed=rss2" target="_blank" rel="noopener">http://www.nhzy.org/?feed=rss2</a></li>
-<li>捷學的哲學 <a href="http://chit-philosophy.blogspot.com/feeds/posts/default" target="_blank" rel="noopener">http://chit-philosophy.blogspot.com/feeds/posts/default</a></li>
-<li>知乎每日精选 <a href="http://www.zhihu.com/rss" target="_blank" rel="noopener">http://www.zhihu.com/rss</a></li>
-<li>果壳网 <a href="http://www.guokr.com/rss/" target="_blank" rel="noopener">http://www.guokr.com/rss/</a></li>
-<li>每日鲜果精选 <a href="http://xianguo.com/service/dailyshare" target="_blank" rel="noopener">http://xianguo.com/service/dailyshare</a></li>
-<li>学而时嘻之 <a href="http://www.geekonomics10000.com/feed" target="_blank" rel="noopener">http://www.geekonomics10000.com/feed</a></li>
-<li>战隼的学习探索 <a href="http://feed.read.org.cn/" target="_blank" rel="noopener">http://feed.read.org.cn/</a></li>
-<li>一个-韩寒 <a href="http://onehd.herokuapp.com/" target="_blank" rel="noopener">http://onehd.herokuapp.com/</a></li>
-<li>褪墨 <a href="http://feed.mifengtd.cn/" target="_blank" rel="noopener">http://feed.mifengtd.cn/</a></li>
-<li>豆瓣九点 文化 <a href="http://9.douban.com/rss/culture" target="_blank" rel="noopener">http://9.douban.com/rss/culture</a></li>
-<li>读写人 <a href="http://www.duxieren.com/duxieren.xml" target="_blank" rel="noopener">http://www.duxieren.com/duxieren.xml</a></li>
-</ul>
-</li>
-<li><h4 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h4><ul>
-<li>Matrix67: The Aha Moments <a href="http://www.matrix67.com/blog/feed.asp" target="_blank" rel="noopener">http://www.matrix67.com/blog/feed.asp</a></li>
-<li>pennyliang的专栏 <a href="http://blog.csdn.net/pennyliang/rss/list" target="_blank" rel="noopener">http://blog.csdn.net/pennyliang/rss/list</a></li>
-<li>丕子 <a href="http://www.zhizhihu.com/feed" target="_blank" rel="noopener">http://www.zhizhihu.com/feed</a></li>
-<li>xlvector <a href="http://vector-sci.blogspot.com/feeds/posts/default" target="_blank" rel="noopener">http://vector-sci.blogspot.com/feeds/posts/default</a></li>
-<li>Byte Mining <a href="http://www.bytemining.com/feed/" target="_blank" rel="noopener">http://www.bytemining.com/feed/</a></li>
-<li>Dora Blog <a href="http://diaorui.net/?feed=rss2" target="_blank" rel="noopener">http://diaorui.net/?feed=rss2</a></li>
-<li>编程随想的博客 <a href="http://feeds2.feedburner.com/programthink" target="_blank" rel="noopener">http://feeds2.feedburner.com/programthink</a></li>
-<li>数据科学中的R和Python <a href="http://xccds1977.blogspot.com/feeds/posts/default" target="_blank" rel="noopener">http://xccds1977.blogspot.com/feeds/posts/default</a></li>
-<li>机器学习日报 <a href="http://feeds.memect.com/ml.rss.xml" target="_blank" rel="noopener">http://feeds.memect.com/ml.rss.xml</a></li>
-</ul>
-</li>
-</ol>
-<p>以上是我整理的自己常用的RSS源，附带一下RSS源的opml文件。<br><a href="/downloads/RSS.opml"><i class="fa fa-download">RSS.opml</i></a></p>
-<p>如果有不能用的，或者有什么好的，请留言，谢谢~</p>
-]]></content>
-      
-        <categories>
-            
-            <category> source </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> RSS </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[A good start ?]]></title>
-      <url>/a-good-start/</url>
-      <content type="html"><![CDATA[<p>这是个好的开始？说实话我自己也不清楚，清楚的是自己一个想搭个博客，写点东西而已。</p>
-<p>有一两年没写过什么东西了，记忆不好，怕某一天又觉得自己过得浑浑噩噩，留下点文字也好。</p>
-<p>三四月份的时候，在开始在Debian下面尝试用Django来写个博客，然后在Godaddy上买个域名，挂载<br>sae或者bae上面，后来慢慢就没了动力，主要是UI方面不忍直视，也没找到什么好看的博客借鉴一下。</p>
-<p>某天无聊想该好好学学Github的一些基础的时候，突然发现<a href="https://pages.github.com/" target="_blank" rel="noopener">Github Pages</a>这个东西（<em>此处应该有掌声！</em>），然后感觉这种静态页面对一些小博客其实很有吸引力，然后就开始摸索了一下，发现大部分都是用<a href="http://jekyllrb.com" target="_blank" rel="noopener">jekyll</a>来做成静态页面的，jekyll又的用Ruby的一些东西安装，尝试了一下，发现jekyll还是得先做个类似wordpress那种theme出来，还得看一些文档，于是又过了一两个月。<a id="more"></a></p>
-<p>昨天夜晚做完饭，反思了一下，快开学了，怎么感觉这几个月一事无成，然后就想感觉博客是该做出来了。然后想了想还是用别人写好的模板改点东西直接“拿来主义”吧。去了知乎看到了这个问题：<a href="http://www.zhihu.com/question/20223939/answer/15947776" target="_blank" rel="noopener">有推荐的简洁明快的jekyll模板吗？</a>，把下面回答推荐的东西一个个看了，发现<a href="http://lhzhang.com/" target="_blank" rel="noopener">第一个</a>确实不错，风格小清新，于是就是Github上把代码都download，然后开始改一些内容了，到今天夜晚有了现在的一切。</p>
-<p>最近学习动力没之前足了，自从知道研究生的研究方面是量化方面的后，就开始尝试补一些数学基础，然后看一些机器学习和数据挖掘方面的东西。在Coursera上面选了Andrew Ng的Machine Learning，课程也快差不多结束了，虽然感觉没之前看的那个11年他在Stanford讲的机器学习课程的内容多，而且很多算法的数学部分简化太多，但是在matlab上面感觉还是取得了一些进步。</p>
-<p>下阶段打算把主要的算法有个基础的了解后，开始看scikit-learn的源代码，毕竟python才是我最爱。</p>
-<p>写到这儿也差不多了，过几天再写个日志把去年两年的考研生活做下总结吧。</p>
-<h5 style="text-align:right">2014-08-20晚</h5>
-
-<hr>
-<p>最近感觉Hexo的Next主题挺好的，于是便换了，感谢<a href="http://notes.iissnan.com" target="_blank" rel="noopener">iissnan</a>。</p>
-<h5 style="text-align:right">2016-04-29凌晨</h5>]]></content>
-      
-        <categories>
-            
-            <category> life </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> github page </tag>
-            
-        </tags>
-        
-    </entry>
-    
-  
-  
+<search>
+  <entry>
+    <title><![CDATA[RSS源整理]]></title>
+    <url>%2FRss-source%2F</url>
+    <content type="text"><![CDATA[Google Reader关闭之前把自己的RSS源导入到了Feedly，之后读RSS也是断断续续的，尝试过鲜果、Feedly、Digg…，最终还是掏了30RMB在APP Store里面买了Reeder。在Reeder里面用Feedly登录，体验还是不错的。 RSS源整理 互联网 虎嗅网 http://www.huxiu.com/rss/0.xml 互联网的那点事 http://www.alibuybuy.com/feed 36氪 http://www.36kr.com/feed/ Engadget RSS Feed http://www.engadget.com/rss.xml 爱范儿 http://www.ifanr.com/feed 极客公园 http://feeds.geekpark.net/ 风雪之隅 http://www.laruence.com/feed 周鸿祎的Blog http://zhouhongyi.blog.sohu.com/rss TechWeb http://www.techweb.com.cn/rss/focus.xml 酷壳 http://coolshell.cn/feed Solidot http://feeds2.feedburner.com/solidot 豆瓣九点 科技 http://9.douban.com/rss/technology 阮一峰的网络日志 http://www.ruanyifeng.com/blog/atom.xml cnBeta http://cnbeta.feedsportal.com/c/34306/f/624776/index.rss 谷奥——探寻谷歌的奥秘 http://www.guao.hk/feed 月光博客 http://feed.williamlong.info/ 雷锋网 http://www.leiphone.com/feed 经济 FT中文网 - 今日焦点 http://www.ftchinese.com/rss/news FT中文网一周十大热门文章 http://www.ftchinese.com/rss/hotstoryby7day 华尔街见闻 http://wallstreetcn.com/rss.xml 华尔街日报 http://chinese.wsj.com/gb/rss01.xml 经济博客 http://blog.hexun.com/group/GetRssResouce.aspx?classId=66 路透: 时事要闻 http://cn.reuters.feedsportal.com/CNTopGenNews 今日话题 - 雪球 http://xueqiu.com/hots/topic/rss 金融新闻_财新网 http://finance.caixin.com/finance_news.xml HBR.org http://feeds.harvardbusiness.org/harvardbusiness/ FT中文网 http://www.ftchinese.com/rss/feed 漫步金融街 http://www.dogear.cn/feed/10801.xml 纽约时报中文网 国际纵览 http://cn.nytimes.com/rss.html Economic Issues(the economist) http://www.economist.com/topics/economics/index.xml Chinese Economy(the economist) http://www.economist.com/topics/chinese-economy/index.xml 经济笔记 http://www.kaieconblog.net/feed/ 财经网 http://www.caijing.com.cn/rss/rss.xml 路透: 中国财经 http://cn.reuters.com/rssFeed/chinaNews 阅读 It Talks-魏武挥的blog http://feed.feedsky.com/ittalks 豆瓣九点 生活 http://9.douban.com/rss/life 译言精选-摘要 http://feed.feedsky.com/yeeyan-select 科学松鼠会 http://songshuhui.net/feed 译言-商业/经济/营销 http://feed.feedsky.com/yeeyan-business 阅读时间 http://feed.feedsky.com/timetimetime 序言書室 http://www.hkreaders.com/?feed=rss2 费杰_苦力强狒狒 http://feed.feedsky.com/kuliqiang 译言-教育与学习 http://feed.feedsky.com/yeeyan-learn 知乎日报 http://feeds.feedburner.com/zhihu-daily 一五一十部落头条 http://feed.feedsky.com/my1510 不许联想 http://feed.feedsky.com/bxlxwxf 左岸读书 http://feed.feedsky.com/clzzxf 政见 http://cnpolitics.org/feed/ Quora http://www.quora.com/rss Nhzy资讯 http://www.nhzy.org/?feed=rss2 捷學的哲學 http://chit-philosophy.blogspot.com/feeds/posts/default 知乎每日精选 http://www.zhihu.com/rss 果壳网 http://www.guokr.com/rss/ 每日鲜果精选 http://xianguo.com/service/dailyshare 学而时嘻之 http://www.geekonomics10000.com/feed 战隼的学习探索 http://feed.read.org.cn/ 一个-韩寒 http://onehd.herokuapp.com/ 褪墨 http://feed.mifengtd.cn/ 豆瓣九点 文化 http://9.douban.com/rss/culture 读写人 http://www.duxieren.com/duxieren.xml 学习 Matrix67: The Aha Moments http://www.matrix67.com/blog/feed.asp pennyliang的专栏 http://blog.csdn.net/pennyliang/rss/list 丕子 http://www.zhizhihu.com/feed xlvector http://vector-sci.blogspot.com/feeds/posts/default Byte Mining http://www.bytemining.com/feed/ Dora Blog http://diaorui.net/?feed=rss2 编程随想的博客 http://feeds2.feedburner.com/programthink 数据科学中的R和Python http://xccds1977.blogspot.com/feeds/posts/default 机器学习日报 http://feeds.memect.com/ml.rss.xml 以上是我整理的自己常用的RSS源，附带一下RSS源的opml文件。RSS.opml 如果有不能用的，或者有什么好的，请留言，谢谢~]]></content>
+      <categories>
+        <category>source</category>
+      </categories>
+      <tags>
+        <tag>RSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[A good start ?]]></title>
+    <url>%2Fa-good-start%2F</url>
+    <content type="text"><![CDATA[这是个好的开始？说实话我自己也不清楚，清楚的是自己一个想搭个博客，写点东西而已。 有一两年没写过什么东西了，记忆不好，怕某一天又觉得自己过得浑浑噩噩，留下点文字也好。 三四月份的时候，在开始在Debian下面尝试用Django来写个博客，然后在Godaddy上买个域名，挂载sae或者bae上面，后来慢慢就没了动力，主要是UI方面不忍直视，也没找到什么好看的博客借鉴一下。 某天无聊想该好好学学Github的一些基础的时候，突然发现Github Pages这个东西（此处应该有掌声！），然后感觉这种静态页面对一些小博客其实很有吸引力，然后就开始摸索了一下，发现大部分都是用jekyll来做成静态页面的，jekyll又的用Ruby的一些东西安装，尝试了一下，发现jekyll还是得先做个类似wordpress那种theme出来，还得看一些文档，于是又过了一两个月。 昨天夜晚做完饭，反思了一下，快开学了，怎么感觉这几个月一事无成，然后就想感觉博客是该做出来了。然后想了想还是用别人写好的模板改点东西直接“拿来主义”吧。去了知乎看到了这个问题：有推荐的简洁明快的jekyll模板吗？，把下面回答推荐的东西一个个看了，发现第一个确实不错，风格小清新，于是就是Github上把代码都download，然后开始改一些内容了，到今天夜晚有了现在的一切。 最近学习动力没之前足了，自从知道研究生的研究方面是量化方面的后，就开始尝试补一些数学基础，然后看一些机器学习和数据挖掘方面的东西。在Coursera上面选了Andrew Ng的Machine Learning，课程也快差不多结束了，虽然感觉没之前看的那个11年他在Stanford讲的机器学习课程的内容多，而且很多算法的数学部分简化太多，但是在matlab上面感觉还是取得了一些进步。 下阶段打算把主要的算法有个基础的了解后，开始看scikit-learn的源代码，毕竟python才是我最爱。 写到这儿也差不多了，过几天再写个日志把去年两年的考研生活做下总结吧。 2014-08-20晚 最近感觉Hexo的Next主题挺好的，于是便换了，感谢iissnan。 2016-04-29凌晨]]></content>
+      <categories>
+        <category>life</category>
+      </categories>
+      <tags>
+        <tag>github page</tag>
+      </tags>
+  </entry>
 </search>
