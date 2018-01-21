@@ -1,0 +1,49 @@
+title: "Li's Station"
+author: "li"
+description: "Major in Finance, Quant, Data Science"
+keyword: "刘笠, liuli, ll1735, liuli1735"
+baseurl: ""
+url: "http://liuli.me"
+
+plugins: [jekyll-paginate]
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+highlighter: rouge
+permalink: /:year/:month/:day/:title.html
+paginate: 5
+
+# SNS settings
+#weibo_username: 
+#douban_username: 
+#zhihu_username: 
+#facebook_username: ll1735
+#twitter_username: ll1735
+##linkedin_username: 
+#github_username: liuli1735
+
+# Disqus settings
+disqus_username: liuli1735
+
+# Analytics settings
+# Baidu Analytics
+baidu_track_id: 98dfb384afdf7dd8e5c34f8037c402e2
+# Google Analytics
+google_track_id: 'UA-53994143-1'            # Format: UA-xxxxxx-xx
+google_domain: auto
+
+navigations:
+  - title: Archive
+    class: fa fa-list-ul
+    href: /archive.html
+  - title: Tag
+    class: fa fa-tags
+    href: /tag.html
+  - title: About
+    class: fa fa-user
+    href: /about.html
+  - title: Subscribe
+    class: fa fa-rss
+    href: /feed.xml
