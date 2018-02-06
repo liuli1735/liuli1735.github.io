@@ -5,11 +5,11 @@ layout: page
 
 a
 
-> Quant | Major in Finance
+> Quant&nbsp;&#124;&nbsp;Major in Finance
 
 who involved in 
 
-> [github](https://github.com/liuli1735){:target='_blank'}
+> [github](https://github.com/liuli1735){:target="_blank"}
 
 mail 
 
@@ -17,6 +17,6 @@ mail
 
 or follow 
 
-> [Facebook](https://www.facebook.com/ll1735){:target='_blank'}&nbsp;|&nbsp;[Twitter](https://twitter.com/ll1735){:target='_blank'}&nbsp;|&nbsp;[Zhihu](http://www.zhihu.com/people/ll1735){:target='_blank'}&nbsp;|&nbsp;[Douban](http://www.douban.com/people/ll1735/){:target='_blank'}
+> [Facebook](https://www.facebook.com/ll1735){:target="_blank"}&nbsp;&#124;&nbsp;[Twitter](https://twitter.com/ll1735){:target="_blank"}&nbsp;&#124;&nbsp;[Zhihu](http://www.zhihu.com/people/ll1735){:target="_blank"}&nbsp;&#124;&nbsp;[Douban](http://www.douban.com/people/ll1735/){:target="_blank"}
 
 to reach me
