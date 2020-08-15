@@ -1,5 +1,5 @@
 ---
-title: tags
+title: tag
 layout: page
 ---
 
