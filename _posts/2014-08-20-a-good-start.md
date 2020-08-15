@@ -2,7 +2,7 @@
 title: 'A good start ?'
 layout: post
 tags:
-  - github page
+  - github
 ---
 这是个好的开始？说实话我自己也不清楚，清楚的是自己一个想搭个博客，写点东西而已。
 
