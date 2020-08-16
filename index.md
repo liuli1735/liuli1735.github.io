@@ -24,7 +24,7 @@ layout: default
     {% endif %}
     </section>
     <section class="post">
-    {{ post.content | strip_html | truncate:1500 }}
+      {{ post.content | strip_html | truncate:500 }}
     </section>
     </article>
   {% endfor %}
