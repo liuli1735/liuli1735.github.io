@@ -5,14 +5,14 @@ keyword: "刘笠, liuli, ll1735, liuli1735"
 baseurl: ""
 url: "liuli1735.github.io"
 
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jekyll-sitemap, jekyll-feed]
 
 # Build settings
 markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 highlighter: rouge
-permalink: /:year/:month/:day/:title.html
+permalink: /:title.html                 # /:year/:month/:day/:title.html
 paginate: 5
 
 # SNS settings

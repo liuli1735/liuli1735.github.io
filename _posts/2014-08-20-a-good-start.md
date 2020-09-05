@@ -1,6 +1,7 @@
 ---
 title: 'A good start ?'
 layout: post
+comments: true
 tags:
   - github
 ---
