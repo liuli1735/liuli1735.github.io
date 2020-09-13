@@ -24,7 +24,8 @@ layout: default
     {% endif %}
     </section>
     <section class="post">
-      {{ post.content | strip_html | truncate:500 }}
+      {{ post.excerpt }}
+      <p><a href="{{ post.url }}">ReadMore &raquo;</a></p>
     </section>
     </article>
   {% endfor %}

@@ -25,6 +25,7 @@ Google Reader关闭之前把自己的RSS源导入到了Feedly，之后读RSS也�
     + 谷奥——探寻谷歌的奥秘 <http://www.guao.hk/feed>
     + 月光博客 <http://feed.williamlong.info/>
     + 雷锋网 <http://www.leiphone.com/feed>
+<!-- more -->
 2. #### 经济 ####
     + FT中文网 - 今日焦点 <http://www.ftchinese.com/rss/news>
     + FT中文网一周十大热门文章 <http://www.ftchinese.com/rss/hotstoryby7day>

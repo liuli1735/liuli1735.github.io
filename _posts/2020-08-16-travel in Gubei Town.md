@@ -9,6 +9,7 @@ tags:
 疫情期间的放空。
 
 ![长城](/media/files/2020/IMG_20200802_112727.jpg)
+<!-- more -->
 ![小镇](/media/files/2020/IMG_20200801_194604.jpg)
 ![小镇](/media/files/2020/IMG_20200801_195348.jpg)
 ![莎](/media/files/2020/IMG_20200801_194805.jpg)
