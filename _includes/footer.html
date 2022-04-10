@@ -1,0 +1,98 @@
+<footer>
+  <div>
+    <!-- SNS Link -->
+    <ul class="list-inline text-center">
+        {% if site.weibo_username %}
+        <li>
+            <a target="_blank" href="http://weibo.com/{{ site.weibo_username }}">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+        {% endif %}
+        {% if site.douban_username %}
+        <li>
+            <a target="_blank" href="http://www.douban.com/people/{{ site.douban_username }}">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa  fa-stack-1x fa-inverse">豆</i>
+                </span>
+            </a>
+        </li>
+        {% endif %}
+        {% if site.zhihu_username %}
+        <li>
+            <a target="_blank" href="https://www.zhihu.com/people/{{ site.zhihu_username }}">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa  fa-stack-1x fa-inverse">知</i>
+                </span>
+            </a>
+        </li>
+        {% endif %}
+        {% if site.facebook_username %}
+        <li>
+            <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+        {% endif %}
+        {% if site.twitter_username %}
+        <li>
+            <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+        {% endif %}
+        {% if site.linkedin_username %}
+        <li>
+            <a target="_blank" href="https://cn.linkedin.com/in/{{ site.linkedin_username }}">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+        {% endif %}
+        {% if site.github_username %}
+        <li>
+            <a target="_blank" href="https://github.com/{{ site.github_username }}">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+        {% endif %}
+        {% if site.RSS %}
+        <li>
+            <a target="_blank" href="{{ "/feed.xml" | prepend: site.baseurl }}">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </li>
+        {% endif %}
+    </ul>
+    <p class="copyright text-muted" style="margin-top:110pm;">
+      Copyright{% assign first_post = site.posts | last %}
+      &copy; {{ first_post.date | date: "%Y" }} ~ {{ site.time | date: "%Y" }} {{ site.author }} | fork <a target="_blank" href="https://github.com/liuli1735/liuli1735.github.io" title="fork me">me</a>
+      <!--
+      <iframe
+          style="margin-left: 2px; margin-bottom:-5px;"
+          frameborder="0" scrolling="0" width="91px" height="20px"
+          src="https://ghbtns.com/github-btn.html?user=liuli1735&repo=liuli1735.github.io&type=fork" >
+      </iframe>
+      -->
+    </p>
+  </div>
+</footer>

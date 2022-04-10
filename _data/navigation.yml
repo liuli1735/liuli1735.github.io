@@ -1,0 +1,12 @@
+- title: Archive
+  class: fas fa-list-ul
+  href: /archive.html
+- title: Tag
+  class: fas fa-tags
+  href: /tag.html
+- title: About
+  class: fas fa-user
+  href: /about.html
+- title: Subscribe
+  class: fas fa-rss
+  href: /feed.xml

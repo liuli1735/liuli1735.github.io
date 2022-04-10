@@ -84,4 +84,4 @@ Google Reader关闭之前把自己的RSS源导入到了Feedly，之后读RSS也�
 
 以上是我整理的自己常用的RSS源，附带一下RSS源的opml文件。
 
-[<i class="fa fa-download">RSS.opml</i>](/media/files/RSS.opml)
+[<i class="fa fa-download">RSS.opml</i>](/assets/files/RSS.opml)
