@@ -15,7 +15,7 @@ layout: default
       <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     </span>
     {% if post.tags %}
-    &nbsp;<i class="fa fa-tags"></i>
+    <i class="fa fa-tags"></i>
     <span class="tags">
       {% for tag in post.tags %}
       <a href="/tag.html#{{ tag }}" title="{{ tag }}">{{ tag }}</a>

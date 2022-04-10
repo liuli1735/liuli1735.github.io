@@ -10,7 +10,7 @@
  * |\.|._)._)
  * --------------------------------- */
 @import url(/media/fonts/telex-regular.css);
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
 @import url(//code.cdn.mozilla.net/fonts/fira.css);
 * {
   margin: 0;
@@ -97,7 +97,7 @@ header {
     header #header h1 {
       font-family: telexregular, Hiragino Sans GB, Microsoft YaHei, sans-serif; }
       header #header h1 a {
-        color: #888888;
+        color: #a9a9a9;
         display: block; }
   header nav {
     display: inline-block;
@@ -107,7 +107,7 @@ header {
       margin: .5em; }
     header nav a, header nav #header h1 a, header #header h1 nav a, header nav article .title a, article .title header nav a, header nav article .meta .tags a, article .meta .tags header nav a, header nav article .divider a, article .divider header nav a {
       font-family: telexregular, Hiragino Sans GB, Microsoft YaHei, sans-serif;
-      color: #909090; }
+      color: #ccc; }
 
 #content {
   margin: 0 auto;
@@ -130,7 +130,6 @@ header {
 ul.listing {
   margin-top: 1em; }
   ul.listing li {
-    list-style-type: none;
     padding: 0; }
     ul.listing li.listing-item a, ul.listing li.listing-item header #header h1 a, header #header h1 ul.listing li.listing-item a {
       padding: .2em 0 .2em 2em; }
@@ -155,7 +154,7 @@ article {
   article .meta {
     display: block;
     overflow: auto;
-    margin-top: -.3em;
+    margin-top: -.5em;
     font-size: .9em; }
     article .meta .tags header #header h1 a, header #header h1 article .meta .tags a, article .meta .tags a {
       color: #999999;
@@ -220,20 +219,9 @@ footer {
     footer {
       width: 750px; } }
   footer a, footer header #header h1 a, header #header h1 footer a, footer article .title a, article .title footer a, footer article .meta .tags a, article .meta .tags footer a, footer article .divider a, article .divider footer a {
-    color: #404040; }
+    color: #cccccc; }
     footer a:hover, footer header #header h1 a:hover, header #header h1 footer a:hover, footer article .meta .tags a:hover, article .meta .tags footer a:hover {
-      color: #23527c; }
-
-.list-inline {
-  padding-left: 0;
-  margin-left: -5px;
-  list-style: none;
-}
-.list-inline > li,.list-inline > span {
-  display: inline-block;
-  padding-right: 5px;
-  padding-left: 5px;
-}
+      color: #999999; }
 
 #tag_cloud {
   margin-bottom: 1em; }
@@ -245,7 +233,7 @@ footer {
 .like-wrapper {
   color: #999; }
   .like-wrapper .like-button, .like-wrapper .unlike-button {
-    font-family: "FontAwesome";
+    font-family: "Font Awesome 5 Free";
     padding-right: 5px; }
   .like-wrapper .like-button:hover {
     color: #dd1144; }

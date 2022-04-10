@@ -1,4 +1,4 @@
-title: "Li's Station"
+name: "Li's Station"
 author: "li"
 description: "Major in Finance, Quant, Data Science"
 keyword: "刘笠, liuli, ll1735, liuli1735"
@@ -17,12 +17,12 @@ paginate: 5
 excerpt_separator: "<!-- more -->"      # ReadMore separator
 
 # SNS settings
-#weibo_username: 
-#douban_username: 
-#zhihu_username: 
+#weibo_username:
+#douban_username:
+#zhihu_username:
 #facebook_username: ll1735
 #twitter_username: ll1735
-#linkedin_username: 
+#linkedin_username:
 #github_username: liuli1735
 
 # Disqus settings
@@ -37,14 +37,14 @@ google_domain: auto
 
 navigations:
   - title: Archive
-    class: fa fa-list-ul
+    class: fas fa-list-ul
     href: /archive.html
   - title: Tag
-    class: fa fa-tags
+    class: fas fa-tags
     href: /tag.html
   - title: About
-    class: fa fa-user
+    class: fas fa-user
     href: /about.html
   - title: Subscribe
-    class: fa fa-rss
+    class: fas fa-rss
     href: /feed.xml

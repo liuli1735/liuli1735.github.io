@@ -12,18 +12,18 @@ layout: default
     <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
   </span>
   {% if page.tags %}
-  &nbsp;<i class="fa fa-tags"></i>
+  <i class="fa fa-tags"></i>
   <span class="tags">
     {% for tag in page.tags %}
     <a href="/tag.html#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
     {% endfor %}
   </span>
-  
+
   <!-- LikeBtn.com BEGIN
   <span class="likebtn-wrapper" data-theme="squarespace" data-identifier="item_1" data-show_like_label="false" data-dislike_enabled="false" data-icon_dislike_show="false" data-share_enabled="false"></span>
   <script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
   LikeBtn.com END -->
-  
+
   {% endif %}
   </section>
   <section class="post">
@@ -56,7 +56,7 @@ layout: default
   <section class="comment">
     <div id="disqus_thread"></div>
     <script>
-    
+
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
@@ -80,14 +80,14 @@ layout: default
   {% endif %}
 </article>
 
-<!-- 到其他网址的link添加 target=“_blank” 
+<!-- 到其他网址的link添加 target=“_blank”
 <script type="text/javascript">
 var links = document.links;
 
 for (var i = 0, linksLength = links.length; i < linksLength; i++) {
    if (links[i].hostname != window.location.hostname) {
        links[i].target = '_blank';
-   } 
+   }
 }
 </script>
 -->

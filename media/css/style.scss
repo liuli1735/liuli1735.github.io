@@ -10,7 +10,7 @@
  * --------------------------------- */
 
 @import url(/media/fonts/telex-regular.css);
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
 @import url(//code.cdn.mozilla.net/fonts/fira.css);
 @import "media-queries";
 
@@ -81,7 +81,6 @@ header {
 ul.listing {
   margin-top: 1em;
   li {
-    list-style-type:none;
     padding: 0;
     &.listing-item { a { padding: .2em 0 .2em 2em; } time { color: #999; } &:hover { background-color: #f9f9f9; } }
     &.listing-seperator { font-family: #{$label-font}; &:before { content: "⭠ "; color: #ccc; } }
@@ -99,7 +98,7 @@ article {
   .meta {
     display: block;
     overflow: auto;
-    margin-top: -.3em;
+    margin-top: -.5em;
     font-size: .9em;
     .tags a { @extend a; color: #999999; padding: .25em; }
   }
@@ -158,7 +157,7 @@ footer {
 // like
 .like-wrapper {
   color: #999;
-  .like-button, .unlike-button { font-family: "FontAwesome"; padding-right: 5px; }
+  .like-button, .unlike-button { font-family: "Font Awesome 5 Free"; padding-right: 5px; }
   .like-button:hover { color: #dd1144; }
   .like-button.liked:hover { color: #999; }
 }
