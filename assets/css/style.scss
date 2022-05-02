@@ -28,7 +28,7 @@ $background-color: #f9f9f9;
   @include min-screen(414px) { width: 400px; }
   @include min-screen(800px) { width: 750px; }
   @include min-screen(960px) { width: 800px; }
-  @include min-screen(1440px) { width: 1200px; }
+  @include min-screen(1440px) { width: 1000px; }
 }
 
 * { margin: 0; padding: 0; }
@@ -144,7 +144,7 @@ footer {
   display: block;
   color: #909090;
   font-family: #{$label-font};
-  font-size: .9em;
+  font-size: 1em;
   text-align: center;
   margin: 1em auto;
   a { color: #cccccc; &:hover { color: #999999; }; }
