@@ -86,6 +86,12 @@ header {
   @media screen and (min-width: 800px) {
     header {
       width: 750px; } }
+  @media screen and (min-width: 960px) {
+    header {
+      width: 800px; } }
+  @media screen and (min-width: 1440px) {
+    header {
+      width: 1200px; } }
   header:after {
     content: '';
     width: 100%;
@@ -124,6 +130,12 @@ header {
   @media screen and (min-width: 800px) {
     #content {
       width: 750px; } }
+  @media screen and (min-width: 960px) {
+    #content {
+      width: 800px; } }
+  @media screen and (min-width: 1440px) {
+    #content {
+      width: 1200px; } }
   #content .main-listing {
     margin-bottom: 2em; }
 
@@ -218,6 +230,12 @@ footer {
   @media screen and (min-width: 800px) {
     footer {
       width: 750px; } }
+  @media screen and (min-width: 960px) {
+    footer {
+      width: 800px; } }
+  @media screen and (min-width: 1440px) {
+    footer {
+      width: 1200px; } }
   footer a, footer header #header h1 a, header #header h1 footer a, footer article .title a, article .title footer a, footer article .meta .tags a, article .meta .tags footer a, footer article .divider a, article .divider footer a {
     color: #cccccc; }
     footer a:hover, footer header #header h1 a:hover, header #header h1 footer a:hover, footer article .meta .tags a:hover, article .meta .tags footer a:hover {

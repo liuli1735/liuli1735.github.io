@@ -27,6 +27,8 @@ $background-color: #f9f9f9;
   @include min-screen(375px) { width: 350px; }
   @include min-screen(414px) { width: 400px; }
   @include min-screen(800px) { width: 750px; }
+  @include min-screen(960px) { width: 800px; }
+  @include min-screen(1440px) { width: 1200px; }
 }
 
 * { margin: 0; padding: 0; }
