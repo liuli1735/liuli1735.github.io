@@ -55,7 +55,8 @@ layout: default
   {% if page.comments %}
   <section class="comment">
     <div id="disqus_thread"></div>
-    <script>
+    <!-- 暂时停用disqus，转到giscus -->
+    <!-- <script>
 
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -75,7 +76,20 @@ layout: default
     (d.head || d.body).appendChild(s);
     })();
     </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> -->
+
+    <script src="https://giscus.app/client.js"
+      data-repo="{{site.data-repo}}"
+      data-repo-id="{{site.data-repo-id}}"
+      data-category="{{site.data-category}}"
+      data-category-id="{{site.data-category-id}}"
+      data-mapping="pathname"
+      data-reactions-enabled="1"
+      data-emit-metadata="1"
+      data-theme="light"
+      crossorigin="anonymous"
+      async>
+    </script>
   </section>
   {% endif %}
 </article>

@@ -1,6 +1,7 @@
 ---
 title: 'RSS源整理'
 layout: post
+comments: true
 tags:
   - RSS
 ---

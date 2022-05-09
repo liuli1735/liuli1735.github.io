@@ -1,7 +1,6 @@
 ---
 title: '古北ウォータータウンの旅'
 layout: post
-comments: true
 tags:
   - travel
 ---

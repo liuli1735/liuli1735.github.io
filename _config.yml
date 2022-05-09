@@ -28,6 +28,12 @@ excerpt_separator: "<!-- more -->"      # ReadMore separator
 # Disqus settings
 disqus_username: liuli1735
 
+# giscus settings
+data-repo: liuli1735/liuli1735.github.io
+data-repo-id: MDEwOlJlcG9zaXRvcnkyMTY0MjI4NQ==
+data-category: Announcements
+data-category-id: DIC_kwDOAUo8Lc4CPAch
+
 # Analytics settings
 # Baidu Analytics
 baidu_track_id: 98dfb384afdf7dd8e5c34f8037c402e2

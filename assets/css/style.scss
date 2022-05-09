@@ -27,12 +27,11 @@ $background-color: #f9f9f9;
   @include min-screen(375px) { width: 350px; }
   @include min-screen(414px) { width: 400px; }
   @include min-screen(800px) { width: 750px; }
-  @include min-screen(960px) { width: 800px; }
   @include min-screen(1440px) { width: 1000px; }
 }
 
 * { margin: 0; padding: 0; }
-body { font-size: 14px; font-family: #{$font}; color: #555; background-color: $background-color; -webkit-font-smoothing: antialiased; }
+body { font-size: 16px; font-family: #{$font}; color: #555; background-color: $background-color; -webkit-font-smoothing: antialiased; }
 ol, ul { list-style-position: inside; }
 li { padding: .2em 0; }
 hr { width: 4em; border: none; border-top: 1px dashed #d0d0d0; border-bottom: 1px dashed #f9f9f9; }
@@ -91,7 +90,7 @@ ul.listing {
 
 article {
   margin: 2em 0;
-  p { padding: .7em 0; }
+  p { padding: .5em 0; }
   .title {
     font-family: #{$label-font};
     a { @extend a; color: #777; }
@@ -144,7 +143,7 @@ footer {
   display: block;
   color: #909090;
   font-family: #{$label-font};
-  font-size: 1em;
+  font-size: 0.9em;
   text-align: center;
   margin: 1em auto;
   a { color: #cccccc; &:hover { color: #999999; }; }
