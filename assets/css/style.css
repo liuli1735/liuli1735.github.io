@@ -17,7 +17,7 @@
   padding: 0; }
 
 body {
-  font-size: 16px;
+  font-size: 14px;
   font-family: telexregular, Hiragino Sans GB, Microsoft YaHei, sans-serif;
   color: #555;
   background-color: #f9f9f9;
@@ -160,7 +160,8 @@ article {
   article .meta {
     display: block;
     overflow: auto;
-    margin-top: -.5em;
+    margin-top: -.3em;
+    letter-spacing: .03em;
     font-size: .9em; }
     article .meta .tags header #header h1 a, header #header h1 article .meta .tags a, article .meta .tags a {
       color: #999999;
