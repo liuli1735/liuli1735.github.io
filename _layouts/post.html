@@ -8,12 +8,12 @@ layout: default
   </section>
   <section class="meta">
   <span class="time">
-    <!-- <i class="fa fa-calendar"></i> -->
+    <i class="fa-solid fa-calendar-days"></i>
     <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
   </span>
   {% if page.tags %}
-  <!-- <i class="fa fa-tags"></i> -->
   <span class="tags">
+    <i class="fa-solid fa-tag"></i>
     {% for tag in page.tags %}
     <a href="/tag.html#{{ tag }}" title="{{ tag }}">#{{ tag }}</a>
     {% endfor %}

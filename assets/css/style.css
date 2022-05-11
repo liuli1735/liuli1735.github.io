@@ -166,12 +166,15 @@ article {
   article .meta {
     display: block;
     overflow: auto;
-    margin-top: -.3em;
     letter-spacing: .03em;
     font-size: .9em; }
+    article .meta .tags {
+      margin-left: 10px; }
     article .meta .tags header #header h1 a, header #header h1 article .meta .tags a, article .meta .tags a {
       color: #999999;
       padding: .25em; }
+    article .meta span i {
+      color: #808080; }
   article .post img {
     max-width: 100%;
     display: block;

@@ -100,10 +100,13 @@ article {
   .meta {
     display: block;
     overflow: auto;
-    margin-top: -.3em;
+    // margin-top: -.3em;
     letter-spacing: .03em;
     font-size: .9em;
+    .tags { margin-left: 10px;}
     .tags a { @extend a; color: #999999; padding: .25em; }
+    span i { color: #808080;}
+
   }
 
   .post { img { max-width: 100%; display: block; margin: .5em auto; } }
