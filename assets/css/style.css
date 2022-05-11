@@ -86,7 +86,10 @@ header {
   @media only screen and (min-width: 800px) {
     header {
       width: 750px; } }
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 960px) {
+    header {
+      width: 800px; } }
+  @media only screen and (min-width: 2000px) {
     header {
       width: 1000px; } }
   header:after {
@@ -127,7 +130,10 @@ header {
   @media only screen and (min-width: 800px) {
     #content {
       width: 750px; } }
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 960px) {
+    #content {
+      width: 800px; } }
+  @media only screen and (min-width: 2000px) {
     #content {
       width: 1000px; } }
   #content .main-listing {
@@ -225,7 +231,10 @@ footer {
   @media only screen and (min-width: 800px) {
     footer {
       width: 750px; } }
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 960px) {
+    footer {
+      width: 800px; } }
+  @media only screen and (min-width: 2000px) {
     footer {
       width: 1000px; } }
   footer a, footer header #header h1 a, header #header h1 footer a, footer article .title a, article .title footer a, footer article .meta .tags a, article .meta .tags footer a, footer article .divider a, article .divider footer a {
