@@ -7,6 +7,10 @@ url: "https://liuli.blog" # liuli1735.github.io
 
 plugins: [jekyll-paginate, jekyll-sitemap, jekyll-feed]
 
+sass:
+    sass_dir: assets/_sass
+    style: compressed
+
 # Build settings
 markdown: kramdown
 kramdown:
