@@ -42,5 +42,4 @@ data-category-id: DIC_kwDOAUo8Lc4CPAch
 # Baidu Analytics
 baidu_track_id: 98dfb384afdf7dd8e5c34f8037c402e2
 # Google Analytics
-google_track_id: 'UA-53994143-1'            # Format: UA-xxxxxx-xx
-google_domain: auto
+google_track_id: 'G-BRKM5JZ7G2'
