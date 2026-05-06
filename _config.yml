@@ -1,9 +1,9 @@
 name: "Li's Station"
 author: "li"
 description: "Major in Finance, Quant, Data Science"
-keyword: ""
+# keyword: ""
 baseurl: ""
-url: "liuli1735.github.io" 
+url: "https://liuli1735.github.io"
 
 plugins: [jekyll-paginate, jekyll-sitemap, jekyll-feed]
 

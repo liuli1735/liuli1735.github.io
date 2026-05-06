@@ -3,23 +3,31 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ site.description }}">
-  <meta name="keyword"  content="{{ site.keyword }}">
-  <meta name="author" content="{{ site.author }}">
   {% if page.title %}
-  <title>{{ page.title }}</title>
+    {% assign page_title = page.title | append: " | " | append: site.name %}
   {% else %}
-  <title>{{ site.name }}</title>
+    {% assign page_title = site.name %}
+  {% endif %}
+  {% assign page_description = page.description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 %}
+  <meta name="description" content="{{ page_description | xml_escape }}">
+  <meta name="author" content="{{ site.author }}">
+  <title>{{ page_title }}</title>
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:title" content="{{ page_title | xml_escape }}">
+  <meta property="og:description" content="{{ page_description | xml_escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:site_name" content="{{ site.name | xml_escape }}">
+  {% if page.layout == "post" %}
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+  {% else %}
+  <meta property="og:type" content="website">
   {% endif %}
   <link rel="shortcut icon" href="/assets/favicon.ico">
   <link href="/feed.xml" rel="alternate" title="{{ site.name }}" type="application/rss+xml" />
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css">
-  <!-- Pygments Github CSS -->
   <link rel="stylesheet" href="/assets/css/syntax.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
-  <script type="text/javascript"> hljs.initHighlightingOnLoad(); </script>
 
   <!-- Google tag (gtag.js) -->
   {% if site.google_track_id %}
