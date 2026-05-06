@@ -12,10 +12,10 @@
  * |\.|._)._)
  * --------------------------------- */
 
+@use "media-queries" as *;
 @import url(/assets/fonts/telex-regular.css);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
 @import url(//code.cdn.mozilla.net/fonts/fira.css);
-@import "media-queries";
 
 $font-name: "telexregular";
 $font: $font-name, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
@@ -123,7 +123,7 @@ article {
     a { @extend a;
       font-family: #{$label-font};
       margin: 0 2em;
-      i { color: #999999; margin: 0; &:hover { color: #bb2222 !important; } }
+      i { color: #999999; margin: 0 .5em; &:hover { color: #bb2222 !important; } }
     }
   }
   .divider {

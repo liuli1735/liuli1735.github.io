@@ -1,9 +1,9 @@
 name: "Li's Station"
 author: "li"
 description: "Major in Finance, Quant, Data Science"
-keyword: "liuli"
+keyword: ""
 baseurl: ""
-url: "https://liuli.blog" # liuli1735.github.io
+url: "liuli1735.github.io" 
 
 plugins: [jekyll-paginate, jekyll-sitemap, jekyll-feed]
 
@@ -24,10 +24,10 @@ excerpt_separator: "<!-- more -->"      # ReadMore separator
 #weibo_username:
 #douban_username:
 #zhihu_username:
-#facebook_username: ll1735
-#twitter_username: ll1735
+#facebook_username:
+#twitter_username:
 #linkedin_username:
-#github_username: liuli1735
+#github_username:
 
 # Disqus settings
 disqus_username: liuli1735
