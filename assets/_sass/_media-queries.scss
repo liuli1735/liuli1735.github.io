@@ -7,20 +7,17 @@
 //  Version:
 //  1.6.1
 
-@use "sass:map";
-@use "sass:meta";
-
 // --- generator ---------------------------------------------------------------
 
 @mixin mq($args...) {
   $media-type: 'only screen';
   $media-type-key: 'media-type';
-  $args: meta.keywords($args);
+  $args: keywords($args);
   $expr: '';
 
-  @if map.has-key($args, $media-type-key) {
-    $media-type: map.get($args, $media-type-key);
-    $args: map.remove($args, $media-type-key);
+  @if map-has-key($args, $media-type-key) {
+    $media-type: map-get($args, $media-type-key);
+    $args: map-remove($args, $media-type-key);
   }
 
   @each $key, $value in $args {
