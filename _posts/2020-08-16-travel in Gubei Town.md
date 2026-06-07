@@ -1,5 +1,5 @@
 ---
-title: '古北ウォータータウンの旅'
+title: '古北水镇之旅'
 layout: post
 tags:
   - travel
